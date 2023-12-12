@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Cluster
+metadata:
+  name: 
+  annotations:
+    github.com/project-slug: veecode-bot/testeec2_loop
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml,infracost.yml
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
+  

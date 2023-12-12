@@ -1,0 +1,7 @@
+---
+cluster_name: "testeec2"
+VCP_ID: ""
+publicsCIDRblock: "10.50.6.0/24"
+availabilityZone: "us-east-1a"
+instance_type: "t3.medium"
+keypar: "platform_kp"
